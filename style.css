@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  width: 100%;
+}
+header {
+  margin-top: 1rem;
+}
+
+header .container {
+  background-color: #404146;
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.nav-logo a {
+  padding: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+}
+
+nav a {
+  text-transform: capitalize;
+  margin-left: 1rem;
+}
+
+main .jumbo {
+  text-align: center;
+  padding: 6rem 0;
+  text-transform: uppercase;
+}
+
+main .jumbo h1 {
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+main .jumbo p {
+  font-size: 3rem;
+  font-weight: 100;
+  margin-bottom: 1rem;
+}
+
+span {
+  color: coral;
+}
+
+.about_me {
+  background-color: #f4f4f4;
+  padding: 5rem 3rem;
+  text-align: center;
+}
+
+.about_me h2 {
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+}
+
+.about_me p {
+  font-weight: 100;
+}
+
+.projects {
+  padding: 5rem 0;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.project {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.projects h3 {
+  margin-bottom: 2rem;
+}
+
+.project_list img {
+  width: 300px;
+  height: 300px;
+  box-shadow: 1px 1px 10px #888888;
+}
+
+.project_list p {
+  margin-top: 1rem;
+}
+
+.form {
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 5rem 0;
+}
+
+.form h4 {
+  text-transform: capitalize;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+form input,
+textarea {
+  width: 650px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+form div {
+  margin-bottom: 1rem;
+}
+
+form button {
+  padding: 15px 150px;
+  border: none;
+  border-radius: 10px;
+  background-color: #f7e989;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #7c7d82;
+  padding: 2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .footer-logo {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+}
+
+footer .footer-list {
+  display: flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+.space-link {
+  margin-bottom: 1rem;
+}

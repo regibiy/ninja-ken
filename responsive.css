@@ -1,0 +1,24 @@
+@media only screen and (max-width: 670px) {
+  form input,
+  textarea {
+    width: 90%;
+  }
+
+  form button {
+    padding: 10px 100px;
+  }
+
+  .project_list p {
+    margin-bottom: 1rem;
+  }
+
+  header .container {
+    display: block;
+    text-align: center;
+  }
+
+  .rm-ms-res {
+    /* stands for remove margin start responsive */
+    margin-left: 0;
+  }
+}
